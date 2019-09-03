@@ -1,8 +1,4 @@
 def find_element_index(array, value_to_find)
-  # Add your solution here
-  #while i = 0 find_element_index (array)
-# puts find_element_index |array|
-# find_element_index += 1 
 i = 0 
 while i < array.length do 
   if array[i] == value_to_find
@@ -13,17 +9,20 @@ while i < array.length do
  nil 
  end
  
-#while find_element_index(value_to_find)do
-  #puts find_element_index |value_to_find|
-  
-#end 
-
 def find_max_value(array)
-  # Add your solution here
- # puts find_max_value (array)
+ i = 0
+  while i < array.length do 
+  if array[i] == find_max_value
+    return i 
+  end 
+  end 
+  
+   
 end
 
 def find_min_value(array)
-  # Add your solution here
- # puts find_min_value
+ while i < array.length do 
+  if array[i] == find_max_value
+    return i 
+  end 
 end
